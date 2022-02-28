@@ -1,0 +1,125 @@
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    
+}
+.center{
+    display: flex;
+    font-weight: 500; 
+    flex-basis: 30%;
+    justify-content: space-around;  
+}
+#button{
+    background-color: #ffd8db;
+    border-radius: 50px ;
+    border:none;
+    padding: 10px 20px;
+    color: #a389cc;
+}
+span{
+    color: black;  
+    border-bottom: 3px solid #a389cc; 
+}
+a{ 
+    color:gray;
+    text-decoration: none;   
+}
+a:hover{
+    border-bottom: 3px solid #a389cc;
+    color: black;
+}
+h1{
+    margin:0;
+    font-size: 80px;
+    display: inline-block;
+}
+#square{
+    background-color: #5243c0;
+    height: 10px;
+    width:10px;
+    display: inline-block;      
+}
+p{
+    font-size: 20px;
+}
+#button2{
+    background-color: #5243c0;
+    border: 1px solid;
+    border-radius: 20px;
+    color: white;
+    width: 8%;
+    padding: 15px 15px;
+    float: left;
+    text-align: center;   
+}
+#img1{
+    display: inline-block;
+}
+#img2{
+    display: inline-block;
+}
+.section{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.landing{
+   margin-top: 20px;
+   float: right;
+}
+.card{
+    border: 1px;
+    background-color: whitesmoke;
+    width:30%;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#col1{
+    border: 1px solid;
+    border-radius:20px ;
+    height:10px;
+    width:25px;
+    color: pink;
+    background-color: pink;
+}
+
+
+#col2{
+    border: 1px solid;
+    border-radius:20px ;
+    height:10px;
+    width:25px;
+    color: red;
+    background-color: red;
+}
+
+
+#col3{
+    border: 1px solid;
+    border-radius:20px ;
+    height:10px;
+    width:25px;
+    color: green;
+    background-color: green;
+}
+#col4{
+    border: 1px solid;
+    border-radius:20px ;
+    height:10px;
+    width:25px;
+    color: yellow;
+    background-color: yellow;
+}
+.card:hover{
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 30px whitesmoke;
+}
